@@ -1,0 +1,6 @@
+/* Example */
+@media (max-width: 550px){
+    .content {
+      width: 100%;
+    }
+}

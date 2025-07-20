@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.max-content {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.d-none {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-block{
+  display: block;
+}
+
+.d-flex-c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex-c-fd-c{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex-fd-c{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d-flex-sb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-flex-sa{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.d-flex-fe{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.d-flex-fe{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.d-flex-wrap {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.scroll_none{
+  overflow: hidden;
+}
