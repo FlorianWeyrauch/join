@@ -15,8 +15,17 @@
     <link rel="stylesheet" href="./style/responsive.css" />
 
   </head>
-  <body>
+  <body onload="showData()">
+    <form onsubmit="testFunction(); return false;">
+        <input type="text" id="username" placeholder="Username" required/>
+        <input type="number" id="age" placeholder="Age" required/>
+        <input type="text" id="city" placeholder="City" required/>
+        <button type="submit">Submit</button>
+    </form>
+    <button onclick="deleteData('/login')">Delete</button>
+    <div id="data-container"></div>
         <!-- JS -->
     <script src="./script.js"></script>
+    <script src="./scripts/db.js"></script>
   </body>
 </html>
